@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C87D2CF1AE3EBA400E513EE /* MAProvController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C87D2CE1AE3EBA400E513EE /* MAProvController.m */; };
+		0C87D2D21AE3EF2A00E513EE /* MAProvTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C87D2D11AE3EF2A00E513EE /* MAProvTableController.m */; };
+		0C87D2D51AE3EF5A00E513EE /* MAProvInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C87D2D41AE3EF5A00E513EE /* MAProvInfoController.m */; };
+		0C87D2D81AE3F45D00E513EE /* MABgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C87D2D71AE3F45D00E513EE /* MABgView.m */; };
+		0CAECE1F1AE1D5CA00DD254F /* MADevicesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAECE1E1AE1D5CA00DD254F /* MADevicesController.m */; };
+		0CAECE221AE1DEF300DD254F /* MAApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAECE211AE1DEF300DD254F /* MAApplication.m */; };
+		C75E15401AE14A1A0063C31B /* MAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C75E153E1AE14A1A0063C31B /* MAAppDelegate.m */; };
+		C75E15411AE14A1A0063C31B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C75E153F1AE14A1A0063C31B /* main.m */; };
+		C75E15451AE14A9E0063C31B /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = C75E15431AE14A9E0063C31B /* Icon.icns */; };
+		C75E15491AE14AC10063C31B /* MAController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75E15481AE14AC10063C31B /* MAController.m */; };
+		C75E154C1AE150FD0063C31B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C75E154B1AE150FD0063C31B /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C87D2CD1AE3EBA400E513EE /* MAProvController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAProvController.h; sourceTree = "<group>"; };
+		0C87D2CE1AE3EBA400E513EE /* MAProvController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAProvController.m; sourceTree = "<group>"; };
+		0C87D2D01AE3EF2A00E513EE /* MAProvTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAProvTableController.h; sourceTree = "<group>"; };
+		0C87D2D11AE3EF2A00E513EE /* MAProvTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAProvTableController.m; sourceTree = "<group>"; };
+		0C87D2D31AE3EF5A00E513EE /* MAProvInfoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAProvInfoController.h; sourceTree = "<group>"; };
+		0C87D2D41AE3EF5A00E513EE /* MAProvInfoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAProvInfoController.m; sourceTree = "<group>"; };
+		0C87D2D61AE3F45D00E513EE /* MABgView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABgView.h; sourceTree = "<group>"; };
+		0C87D2D71AE3F45D00E513EE /* MABgView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABgView.m; sourceTree = "<group>"; };
+		0CAECE1D1AE1D5CA00DD254F /* MADevicesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MADevicesController.h; sourceTree = "<group>"; };
+		0CAECE1E1AE1D5CA00DD254F /* MADevicesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MADevicesController.m; sourceTree = "<group>"; };
+		0CAECE201AE1DEF300DD254F /* MAApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAApplication.h; sourceTree = "<group>"; };
+		0CAECE211AE1DEF300DD254F /* MAApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAApplication.m; sourceTree = "<group>"; };
+		C75E15181AE147B90063C31B /* MAProvisions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAProvisions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C75E153C1AE14A1A0063C31B /* MA-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MA-Prefix.pch"; sourceTree = "<group>"; };
+		C75E153D1AE14A1A0063C31B /* MAAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAAppDelegate.h; sourceTree = "<group>"; };
+		C75E153E1AE14A1A0063C31B /* MAAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAAppDelegate.m; sourceTree = "<group>"; };
+		C75E153F1AE14A1A0063C31B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C75E15431AE14A9E0063C31B /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
+		C75E15441AE14A9E0063C31B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C75E15471AE14AC10063C31B /* MAController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAController.h; sourceTree = "<group>"; };
+		C75E15481AE14AC10063C31B /* MAController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAController.m; sourceTree = "<group>"; };
+		C75E154A1AE14B2C0063C31B /* MAConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAConstants.h; sourceTree = "<group>"; };
+		C75E154B1AE150FD0063C31B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C75E15151AE147B90063C31B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C75E154C1AE150FD0063C31B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C75E150F1AE147B90063C31B = {
+			isa = PBXGroup;
+			children = (
+				C75E15421AE14A9E0063C31B /* Res */,
+				C75E153B1AE14A1A0063C31B /* Source */,
+				C75E154D1AE159D50063C31B /* Frameworks */,
+				C75E15191AE147B90063C31B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C75E15191AE147B90063C31B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C75E15181AE147B90063C31B /* MAProvisions.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C75E153B1AE14A1A0063C31B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C75E153C1AE14A1A0063C31B /* MA-Prefix.pch */,
+				C75E153D1AE14A1A0063C31B /* MAAppDelegate.h */,
+				C75E153E1AE14A1A0063C31B /* MAAppDelegate.m */,
+				0CAECE201AE1DEF300DD254F /* MAApplication.h */,
+				0CAECE211AE1DEF300DD254F /* MAApplication.m */,
+				0C87D2D61AE3F45D00E513EE /* MABgView.h */,
+				0C87D2D71AE3F45D00E513EE /* MABgView.m */,
+				C75E154A1AE14B2C0063C31B /* MAConstants.h */,
+				C75E15471AE14AC10063C31B /* MAController.h */,
+				C75E15481AE14AC10063C31B /* MAController.m */,
+				0CAECE1D1AE1D5CA00DD254F /* MADevicesController.h */,
+				0CAECE1E1AE1D5CA00DD254F /* MADevicesController.m */,
+				C75E153F1AE14A1A0063C31B /* main.m */,
+				0C87D2CD1AE3EBA400E513EE /* MAProvController.h */,
+				0C87D2CE1AE3EBA400E513EE /* MAProvController.m */,
+				0C87D2D31AE3EF5A00E513EE /* MAProvInfoController.h */,
+				0C87D2D41AE3EF5A00E513EE /* MAProvInfoController.m */,
+				0C87D2D01AE3EF2A00E513EE /* MAProvTableController.h */,
+				0C87D2D11AE3EF2A00E513EE /* MAProvTableController.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		C75E15421AE14A9E0063C31B /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				C75E15431AE14A9E0063C31B /* Icon.icns */,
+				C75E15441AE14A9E0063C31B /* Info.plist */,
+			);
+			path = Res;
+			sourceTree = "<group>";
+		};
+		C75E154D1AE159D50063C31B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C75E154B1AE150FD0063C31B /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C75E15171AE147B90063C31B /* MAProvisions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C75E15351AE147BA0063C31B /* Build configuration list for PBXNativeTarget "MAProvisions" */;
+			buildPhases = (
+				C75E15141AE147B90063C31B /* Sources */,
+				C75E15151AE147B90063C31B /* Frameworks */,
+				C75E15161AE147B90063C31B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MAProvisions;
+			productName = MAProvisions;
+			productReference = C75E15181AE147B90063C31B /* MAProvisions.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C75E15101AE147B90063C31B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MA;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = M;
+				TargetAttributes = {
+					C75E15171AE147B90063C31B = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = C75E15131AE147B90063C31B /* Build configuration list for PBXProject "MAProvisions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C75E150F1AE147B90063C31B;
+			productRefGroup = C75E15191AE147B90063C31B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C75E15171AE147B90063C31B /* MAProvisions */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C75E15161AE147B90063C31B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C75E15451AE14A9E0063C31B /* Icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C75E15141AE147B90063C31B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C75E15411AE14A1A0063C31B /* main.m in Sources */,
+				0CAECE1F1AE1D5CA00DD254F /* MADevicesController.m in Sources */,
+				0C87D2CF1AE3EBA400E513EE /* MAProvController.m in Sources */,
+				C75E15491AE14AC10063C31B /* MAController.m in Sources */,
+				0CAECE221AE1DEF300DD254F /* MAApplication.m in Sources */,
+				0C87D2D21AE3EF2A00E513EE /* MAProvTableController.m in Sources */,
+				0C87D2D81AE3F45D00E513EE /* MABgView.m in Sources */,
+				0C87D2D51AE3EF5A00E513EE /* MAProvInfoController.m in Sources */,
+				C75E15401AE14A1A0063C31B /* MAAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C75E15331AE147BA0063C31B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Source/MA-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C75E15341AE147BA0063C31B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Source/MA-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C75E15361AE147BA0063C31B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Res/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C75E15371AE147BA0063C31B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Res/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C75E15131AE147B90063C31B /* Build configuration list for PBXProject "MAProvisions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C75E15331AE147BA0063C31B /* Debug */,
+				C75E15341AE147BA0063C31B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C75E15351AE147BA0063C31B /* Build configuration list for PBXNativeTarget "MAProvisions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C75E15361AE147BA0063C31B /* Debug */,
+				C75E15371AE147BA0063C31B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C75E15101AE147B90063C31B /* Project object */;
+}
